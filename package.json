@@ -1,0 +1,43 @@
+{
+  "name": "tamaso-ma-jyotirgamaya",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Tamaso Ma Jyotirgamaya — an interactive Diwali film by Sarit, Reyana & Family.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "make:beats": "node scripts/make-beats.mjs",
+    "make:og": "node scripts/make-og.mjs"
+  },
+  "dependencies": {
+    "@fontsource/cinzel": "5.1.0",
+    "@fontsource/inter": "5.1.0",
+    "@fontsource/tiro-devanagari-hindi": "5.1.0",
+    "@react-three/drei": "9.122.0",
+    "@react-three/fiber": "8.18.0",
+    "@react-three/postprocessing": "2.19.1",
+    "gsap": "3.12.5",
+    "howler": "2.2.4",
+    "postprocessing": "6.36.4",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "three": "0.169.0"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "0.1.56",
+    "@types/howler": "2.2.11",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "@types/three": "0.169.0",
+    "@vitejs/plugin-react": "4.3.4",
+    "autoprefixer": "10.4.20",
+    "mpg123-decoder": "1.0.3",
+    "music-tempo": "1.0.3",
+    "postcss": "8.4.49",
+    "tailwindcss": "3.4.17",
+    "typescript": "5.6.3",
+    "vite": "5.4.11"
+  }
+}
